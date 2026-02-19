@@ -31,7 +31,20 @@ This project allows customers to reserve tables online and provides an admin pan
 - **Hosting:** AWS EC2 (Free Tier)
 - **Version Control:** Git & GitHub
 
----
+---## Database Setup
+
+1. Create a database using the provided `database.sql` file.
+2. Rename `db.example.php` to `db.php`.
+3. Update database credentials in `db.php`.
+4. Import the database:
+   ```bash
+   mysql -u root -p < database.sql
+
+    “For security reasons, I ignored `db.php` and provided `db.example.php` and `database.sql` so anyone can understand database connection and schema without exposing credentials.”
+
+🔥 **This is industry-level practice**
+
+
 
 ## 📂 Project Structure
 
